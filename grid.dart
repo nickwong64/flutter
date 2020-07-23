@@ -16,8 +16,8 @@ class MyApp extends StatelessWidget {
           title: Text(title),
         ),
         body: GridView.count(
-          // Create a grid with 2 columns. If you change the scrollDirection to
-          // horizontal, this produces 2 rows.
+          // Create a grid with 3 columns. If you change the scrollDirection to
+          // horizontal, this produces 3 rows.
           crossAxisCount: 3,
           // Generate 100 widgets that display their index in the List.
           children: List.generate(15, (index) {
